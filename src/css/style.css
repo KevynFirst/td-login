@@ -10,7 +10,9 @@ body{
     background-position: center;
     min-height: 100vh;
     min-width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
 }
 
 .center{
@@ -18,11 +20,12 @@ body{
     margin: 0 auto;
     padding: 0 2%;
     flex-direction: column;
+
 }
 
 .w50{
     width: 50%;
-    margin-left: 8%;
+    margin-left: 6%;
     margin-top: 5%;
 }
 
